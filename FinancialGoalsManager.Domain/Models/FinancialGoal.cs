@@ -16,7 +16,7 @@ namespace FinancialGoalsManager.Domain.Models
             GoalAmount = goalAmount;
             Deadline = deadline;
             IdealMonthlySaving = idealMonthlySaving;
-            Status = 0;
+            Status = FinancialGoalsStatusEnum.InProgress;
             CreatedAt = DateTime.Now;
             IsDeleted = false;
         }

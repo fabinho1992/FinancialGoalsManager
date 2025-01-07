@@ -45,6 +45,16 @@ namespace FinancialGoalsManager.Extensions.DependencyInjections
                })
                .AddNewtonsoftJson(op => op.SerializerSettings.Converters.Add(new StringEnumConverter()));
 
+
+            return services;
+        }
+
+        public static IServiceCollection AddExtensionsMediatR(this IServiceCollection services)
+        {
+            var myHandlers = AppDomain.CurrentDomain.Load("FinancialGoalsManager.Application");
+            services.AddMediatR(config =>
+                config.RegisterServicesFromAssembly(myHandlers));
+
             return services;
         }
     }

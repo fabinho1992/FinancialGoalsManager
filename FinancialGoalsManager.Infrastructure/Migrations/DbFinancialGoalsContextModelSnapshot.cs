@@ -35,20 +35,24 @@ namespace FinancialGoalsManager.Infrastructure.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<double>("GoalAmount")
-                        .HasColumnType("float");
+                        .HasPrecision(10, 2)
+                        .HasColumnType("float(10)");
 
                     b.Property<double>("IdealMonthlySaving")
-                        .HasColumnType("float");
+                        .HasPrecision(10, 2)
+                        .HasColumnType("float(10)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("NVARCHAR");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -62,7 +66,8 @@ namespace FinancialGoalsManager.Infrastructure.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<double>("Amount")
-                        .HasColumnType("float");
+                        .HasPrecision(10, 2)
+                        .HasColumnType("float(10)");
 
                     b.Property<Guid>("FinancialGoalId")
                         .HasColumnType("uniqueidentifier");
@@ -73,8 +78,9 @@ namespace FinancialGoalsManager.Infrastructure.Migrations
                     b.Property<DateTime>("TransactionDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("TransactionType")
-                        .HasColumnType("int");
+                    b.Property<string>("TransactionType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

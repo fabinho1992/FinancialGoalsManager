@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "u3ltKCQjM6TCNEuddqq+QLvwEKoXay11nLJCgaPP9LY=",
+  "Source": "FinancialGoalsManager.Api",
+  "BasePath": "_content/FinancialGoalsManager.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

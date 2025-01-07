@@ -1,0 +1,39 @@
+[
+  {
+    "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsController",
+    "Method": "Create",
+    "RelativePath": "api/FinancialGoals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "FinancialGoalsManager.Application.Commands.FinancialGoalCommands.CreateFinancialGoal.CreateFinancialGoalCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsController",
+    "Method": "GetAll",
+    "RelativePath": "api/FinancialGoals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

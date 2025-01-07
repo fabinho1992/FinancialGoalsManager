@@ -13,7 +13,7 @@ namespace FinancialGoalsManager.Infrastructure.Configurations
     {
         public void Configure(EntityTypeBuilder<FinancialGoal> builder)
         {
-            builder.ToTable("Financial_Goal");
+            
 
             builder.HasKey(x => x.Id);
 

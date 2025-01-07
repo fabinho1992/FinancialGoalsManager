@@ -1,6 +1,8 @@
 
 
+using FinancialGoalsManager.Api.ErrorsMiddleware;
 using FinancialGoalsManager.Extensions.DependencyInjections;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContextFinancialGoals(builder.Configuration);
 builder.Services.AddDependencyInjection();
 builder.Services.AddSettingsController();
+builder.Services.AddExtensionsMediatR();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -23,6 +26,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware(typeof(ErrorMiddleware));
 
 app.UseHttpsRedirection();
 

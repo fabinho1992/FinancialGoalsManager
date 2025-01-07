@@ -14,7 +14,7 @@ namespace FinancialGoalsManager.Infrastructure.Configurations
     {
         public void Configure(EntityTypeBuilder<FinancialGoalTransactions> builder)
         {
-            builder.ToTable("Financial_Transactions");
+            
 
             builder.HasKey(x => x.Id);
 
