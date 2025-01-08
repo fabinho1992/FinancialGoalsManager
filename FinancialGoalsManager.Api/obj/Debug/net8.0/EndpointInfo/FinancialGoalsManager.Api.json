@@ -68,6 +68,42 @@
           }
         }
       }
+    },
+    "/api/FinancialGoalsTransactions": {
+      "post": {
+        "tags": [
+          "FinancialGoalsTransactions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFinancialGoalsTransactionsCommand"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFinancialGoalsTransactionsCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFinancialGoalsTransactionsCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateFinancialGoalsTransactionsCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -93,6 +129,30 @@
           }
         },
         "additionalProperties": false
+      },
+      "CreateFinancialGoalsTransactionsCommand": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "transactionType": {
+            "$ref": "#/components/schemas/TransactionTypeEnum"
+          },
+          "financialGoalId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TransactionTypeEnum": {
+        "enum": [
+          "Deposit",
+          "Withdraw"
+        ],
+        "type": "string"
       }
     }
   }

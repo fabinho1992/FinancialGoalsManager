@@ -35,5 +35,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsTransactionsController",
+    "Method": "Create",
+    "RelativePath": "api/FinancialGoalsTransactions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "FinancialGoalsManager.Application.Commands.FinancialGoalsTransactionsCommands.CreateFinancialGoalsTransactions.CreateFinancialGoalsTransactionsCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

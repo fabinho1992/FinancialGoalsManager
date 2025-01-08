@@ -1,6 +1,10 @@
-﻿using FinancialGoalsManager.Domain.IRepositories;
+﻿using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.CreateFinancialGoal;
+using FinancialGoalsManager.Application.FluentValidation;
+using FinancialGoalsManager.Domain.IRepositories;
 using FinancialGoalsManager.Infrastructure.DataContext;
 using FinancialGoalsManager.Infrastructure.Repositories;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -54,6 +58,14 @@ namespace FinancialGoalsManager.Extensions.DependencyInjections
             var myHandlers = AppDomain.CurrentDomain.Load("FinancialGoalsManager.Application");
             services.AddMediatR(config =>
                 config.RegisterServicesFromAssembly(myHandlers));
+
+            return services;
+        }
+
+        public static IServiceCollection AddFluentValidation(this IServiceCollection services)
+        {
+            services.AddFluentValidationAutoValidation()
+                .AddValidatorsFromAssemblyContaining<CreateFinancialGoalValidation>();
 
             return services;
         }

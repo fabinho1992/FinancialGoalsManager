@@ -12,6 +12,7 @@ builder.Services.AddDbContextFinancialGoals(builder.Configuration);
 builder.Services.AddDependencyInjection();
 builder.Services.AddSettingsController();
 builder.Services.AddExtensionsMediatR();
+builder.Services.AddFluentValidation();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
