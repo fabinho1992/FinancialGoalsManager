@@ -1,0 +1,25 @@
+segredos o usuario Financial Goal
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost,1433;Database=DbFinancialGoalsManager;User=sa;Password=F@b250511;TrustServerCertificate=True;"
+
+  },
+  "SmtpSettings": {
+    "Server": "smtp.gmail.com",
+    "Port": 587,
+    "User": "f.santosdev1992@gmail.com",
+    "Pass": "ruzm otfz iwde ddej"
+  },
+  "KeyGoogleBooksApi": {
+    "KeyApi": "AIzaSyDvbirAoe0HYkeRG9NIWRCt3RvgGVT-ItE"
+  },
+  "Jwt": {
+    "ValidAudience": "https://localhost:7110",
+    "ValidIssuer": "https://localhost:7110",
+    "SecretKey": "%~hoDGBRbdm>f9G/8e)e#2z15}WrbmoarF#sP",
+    "TokenValidityInMinutes": "10"
+  }
+
+
+}

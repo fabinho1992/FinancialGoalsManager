@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordeobjetivosfinanceiros\\financialgoalsmanager\\financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalresponses\\financialgoalbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalresponses\\financialgoalbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordeobjetivosfinanceiros\\financialgoalsmanager\\financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalresponses\\financialgoalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalresponses\\financialgoalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordeobjetivosfinanceiros\\financialgoalsmanager\\financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalstransactionsresponses\\financialgoalstransactionsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalstransactionsresponses\\financialgoalstransactionsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordeobjetivosfinanceiros\\financialgoalsmanager\\financialgoalsmanager.application\\queries\\financialgoalqueries\\financialgoalbyid\\financialgoalstransactionsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\queries\\financialgoalqueries\\financialgoalbyid\\financialgoalstransactionsbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordeobjetivosfinanceiros\\financialgoalsmanager\\financialgoalsmanager.application\\commands\\financialgoalstransactionscommands\\createfinancialgoalstransactions\\createfinancialgoalstransactionscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\commands\\financialgoalstransactionscommands\\createfinancialgoalstransactions\\createfinancialgoalstransactionscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordeobjetivosfinanceiros\\financialgoalsmanager\\financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalstransactionsresponses\\financialgoalstransactionsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalstransactionsresponses\\financialgoalstransactionsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordeobjetivosfinanceiros\\financialgoalsmanager\\financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalresponses\\financialgoalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\dtos\\viewmodels\\financialgoalresponses\\financialgoalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79FE4272-F697-4C38-9684-5D8B8D1410EB}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\aulasalurabackend\\projetosmentoria\\apigerenciadordeobjetivosfinanceiros\\financialgoalsmanager\\financialgoalsmanager.application\\queries\\financialgoalqueries\\financialgoallist\\financialgoallistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,19 +143,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FinancialGoalByIdResponse.cs",
+              "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Dtos\\ViewModels\\FinancialGoalResponses\\FinancialGoalByIdResponse.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Dtos\\ViewModels\\FinancialGoalResponses\\FinancialGoalByIdResponse.cs",
+              "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Dtos\\ViewModels\\FinancialGoalResponses\\FinancialGoalByIdResponse.cs",
+              "RelativeToolTip": "FinancialGoalsManager.Application\\Dtos\\ViewModels\\FinancialGoalResponses\\FinancialGoalByIdResponse.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T04:58:28.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FinancialGoalsTransactionsByIdQuery.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalById\\FinancialGoalsTransactionsByIdQuery.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalById\\FinancialGoalsTransactionsByIdQuery.cs",
               "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalById\\FinancialGoalsTransactionsByIdQuery.cs",
               "RelativeToolTip": "FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalById\\FinancialGoalsTransactionsByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T04:52:41.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FinancialGoalsTransactionsResponse.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Dtos\\ViewModels\\FinancialGoalsTransactionsResponses\\FinancialGoalsTransactionsResponse.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Dtos\\ViewModels\\FinancialGoalsTransactionsResponses\\FinancialGoalsTransactionsResponse.cs",
@@ -164,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "FinancialGoalResponse.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Dtos\\ViewModels\\FinancialGoalResponses\\FinancialGoalResponse.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Dtos\\ViewModels\\FinancialGoalResponses\\FinancialGoalResponse.cs",
@@ -177,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CreateFinancialGoalsTransactionsCommand.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Commands\\FinancialGoalsTransactionsCommands\\CreateFinancialGoalsTransactions\\CreateFinancialGoalsTransactionsCommand.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Commands\\FinancialGoalsTransactionsCommands\\CreateFinancialGoalsTransactions\\CreateFinancialGoalsTransactionsCommand.cs",
@@ -185,12 +202,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Application\\Commands\\FinancialGoalsTransactionsCommands\\CreateFinancialGoalsTransactions\\CreateFinancialGoalsTransactionsCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T03:54:10.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T03:54:10.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CreateFinancialGoalsTransactionsCommandHandler.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Commands\\FinancialGoalsTransactionsCommands\\CreateFinancialGoalsTransactions\\CreateFinancialGoalsTransactionsCommandHandler.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Commands\\FinancialGoalsTransactionsCommands\\CreateFinancialGoalsTransactions\\CreateFinancialGoalsTransactionsCommandHandler.cs",
@@ -198,25 +214,24 @@
               "RelativeToolTip": "FinancialGoalsManager.Application\\Commands\\FinancialGoalsTransactionsCommands\\CreateFinancialGoalsTransactions\\CreateFinancialGoalsTransactionsCommandHandler.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAQwB0AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T04:00:22.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T04:00:22.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FinancialGoalTransactions.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\Models\\FinancialGoalTransactions.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Domain\\Models\\FinancialGoalTransactions.cs",
               "ToolTip": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\Models\\FinancialGoalTransactions.cs",
               "RelativeToolTip": "FinancialGoalsManager.Domain\\Models\\FinancialGoalTransactions.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T01:37:08.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FinancialGoalListQueryHandler.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalList\\FinancialGoalListQueryHandler.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalList\\FinancialGoalListQueryHandler.cs",
@@ -224,12 +239,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalList\\FinancialGoalListQueryHandler.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAASwCcAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T00:27:11.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T00:27:11.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FinancialGoalsTransactionsController.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Api\\Controllers\\FinancialGoalsTransactionsController.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Api\\Controllers\\FinancialGoalsTransactionsController.cs",
@@ -237,12 +251,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Api\\Controllers\\FinancialGoalsTransactionsController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAQwBUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T04:17:55.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T04:17:55.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FinancialGoalListQuery.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalList\\FinancialGoalListQuery.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalList\\FinancialGoalListQuery.cs",
@@ -250,12 +263,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Application\\Queries\\FinancialGoalQueries\\FinancialGoalList\\FinancialGoalListQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T00:20:05.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T00:20:05.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CreateFinancialGoalValidation.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FluentValidation\\CreateFinancialGoalValidation.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\FluentValidation\\CreateFinancialGoalValidation.cs",
@@ -263,12 +275,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Application\\FluentValidation\\CreateFinancialGoalValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T03:30:35.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T03:30:35.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FinancialGoalRepository.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Repositories\\FinancialGoalRepository.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Repositories\\FinancialGoalRepository.cs",
@@ -276,12 +287,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Infrastructure\\Repositories\\FinancialGoalRepository.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAWwCUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T02:15:01.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T02:15:01.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PaginationParameters.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\Models\\PaginationParameters.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Domain\\Models\\PaginationParameters.cs",
@@ -289,12 +299,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Domain\\Models\\PaginationParameters.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T01:52:47.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T01:52:47.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ExtensionSettings.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Extensions\\DependencyInjections\\ExtensionSettings.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Extensions\\DependencyInjections\\ExtensionSettings.cs",
@@ -302,12 +311,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Extensions\\DependencyInjections\\ExtensionSettings.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAwwEMAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T01:24:23.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T01:24:23.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Api\\Program.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Api\\Program.cs",
@@ -315,12 +323,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T01:23:54.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T01:23:54.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "FinancialGoalsController.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Api\\Controllers\\FinancialGoalsController.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Api\\Controllers\\FinancialGoalsController.cs",
@@ -328,12 +335,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Api\\Controllers\\FinancialGoalsController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwC0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:26:20.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T22:26:20.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DbFinancialGoalsContext.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\DataContext\\DbFinancialGoalsContext.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\DataContext\\DbFinancialGoalsContext.cs",
@@ -341,12 +347,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Infrastructure\\DataContext\\DbFinancialGoalsContext.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAIBJwBgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T23:37:27.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T23:37:27.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "FinancialGoalConfigurations.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Configurations\\FinancialGoalConfigurations.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Configurations\\FinancialGoalConfigurations.cs",
@@ -354,12 +359,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Infrastructure\\Configurations\\FinancialGoalConfigurations.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAcwA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T23:01:30.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T23:01:30.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IFinancialGoalRepository.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\IRepositories\\IFinancialGoalRepository.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Domain\\IRepositories\\IFinancialGoalRepository.cs",
@@ -367,12 +371,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Domain\\IRepositories\\IFinancialGoalRepository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAApwA0AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T01:51:30.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T01:51:30.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "20250106234913_TablesNames.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Migrations\\20250106234913_TablesNames.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Migrations\\20250106234913_TablesNames.cs",
@@ -380,12 +383,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Infrastructure\\Migrations\\20250106234913_TablesNames.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T23:49:13.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T23:49:13.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FinancialGoalTransactionsConfigurations.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Configurations\\FinancialGoalTransactionsConfigurations.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Configurations\\FinancialGoalTransactionsConfigurations.cs",
@@ -393,12 +395,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Infrastructure\\Configurations\\FinancialGoalTransactionsConfigurations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T23:49:00.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T23:49:00.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "20250106234650_First.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Migrations\\20250106234650_First.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Migrations\\20250106234650_First.cs",
@@ -406,12 +407,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Infrastructure\\Migrations\\20250106234650_First.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T23:46:50.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T23:46:50.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "20250106234421_First.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Migrations\\20250106234421_First.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Migrations\\20250106234421_First.cs",
@@ -422,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "20250106231936_First.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Migrations\\20250106231936_First.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Migrations\\20250106231936_First.cs",
@@ -433,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CreateFinancialGoalCommandHandler.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Commands\\FinancialGoalCommands\\CreateFinancialGoal\\CreateFinancialGoalCommandHandler.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Commands\\FinancialGoalCommands\\CreateFinancialGoal\\CreateFinancialGoalCommandHandler.cs",
@@ -441,12 +441,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Application\\Commands\\FinancialGoalCommands\\CreateFinancialGoal\\CreateFinancialGoalCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:14:05.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T22:14:05.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ResultViewModel.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Dtos\\ResultViewModel.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Dtos\\ResultViewModel.cs",
@@ -454,12 +453,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Application\\Dtos\\ResultViewModel.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAcwBwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:05:07.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T22:05:07.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CreateFinancialGoalCommand.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Commands\\FinancialGoalCommands\\CreateFinancialGoal\\CreateFinancialGoalCommand.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Commands\\FinancialGoalCommands\\CreateFinancialGoal\\CreateFinancialGoalCommand.cs",
@@ -467,12 +465,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Application\\Commands\\FinancialGoalCommands\\CreateFinancialGoal\\CreateFinancialGoalCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:00:42.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T22:00:42.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ErrorMiddleware.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Api\\ErrorsMiddleware\\ErrorMiddleware.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Api\\ErrorsMiddleware\\ErrorMiddleware.cs",
@@ -480,12 +477,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Api\\ErrorsMiddleware\\ErrorMiddleware.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAABQwA4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T21:44:07.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T21:44:07.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ErrorResponse.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Api\\ErrorsMiddleware\\ErrorResponse.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Api\\ErrorsMiddleware\\ErrorResponse.cs",
@@ -493,12 +489,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Api\\ErrorsMiddleware\\ErrorResponse.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA5wBwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T21:42:10.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T21:42:10.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "20250106013943_FirstMigration.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Migrations\\20250106013943_FirstMigration.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Migrations\\20250106013943_FirstMigration.cs",
@@ -509,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Repositories\\UnitOfWork.cs",
@@ -517,12 +512,11 @@
               "RelativeToolTip": "FinancialGoalsManager.Infrastructure\\Repositories\\UnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T03:20:32.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T03:20:32.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "FinancialGoalsManager.Api.csproj",
               "DocumentMoniker": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Api\\FinancialGoalsManager.Api.csproj",
               "RelativeDocumentMoniker": "FinancialGoalsManager.Api\\FinancialGoalsManager.Api.csproj",
@@ -530,8 +524,7 @@
               "RelativeToolTip": "FinancialGoalsManager.Api\\FinancialGoalsManager.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-06T01:14:45.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T01:14:45.653Z"
             }
           ]
         }
