@@ -11,7 +11,7 @@ namespace FinancialGoalsManager.Domain.Models
     {
         public FinancialGoal(string name, double goalAmount, DateTime deadline, double idealMonthlySaving)
         {
-            Id = Guid.NewGuid();    
+            Id = Guid.NewGuid();
             Name = name;
             GoalAmount = goalAmount;
             Deadline = deadline;
@@ -28,6 +28,7 @@ namespace FinancialGoalsManager.Domain.Models
         public double IdealMonthlySaving { get; private set; }
         public FinancialGoalsStatusEnum Status { get; private set; }
         public DateTime CreatedAt { get; private set; }
+        public double SavedValue { get; private set; }
         public bool IsDeleted { get; private set; }
         public List<FinancialGoalTransactions> FinancialGoalTransactions { get; set; } = new List<FinancialGoalTransactions>();
 
@@ -36,5 +37,11 @@ namespace FinancialGoalsManager.Domain.Models
         {
             IsDeleted = true;
         }
+
+        public void DepositAmout(double value)
+        {
+            SavedValue += value;
+        }
     }
+
 }

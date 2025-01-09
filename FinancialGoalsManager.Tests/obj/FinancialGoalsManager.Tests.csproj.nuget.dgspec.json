@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj": {}
   },
   "projects": {
-    "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj",
         "projectName": "FinancialGoalsManager.Tests",
-        "projectPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj",
-        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

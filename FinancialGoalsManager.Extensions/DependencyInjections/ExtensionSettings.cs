@@ -4,6 +4,8 @@ using FinancialGoalsManager.Application.Profiles;
 using FinancialGoalsManager.Application.ServicesEmail;
 using FinancialGoalsManager.Domain.IRepositories;
 using FinancialGoalsManager.Domain.Services;
+using FinancialGoalsManager.Domain.Services.Bus;
+using FinancialGoalsManager.Infrastructure.BusService;
 using FinancialGoalsManager.Infrastructure.DataContext;
 using FinancialGoalsManager.Infrastructure.Repositories;
 using FluentValidation;
@@ -40,9 +42,10 @@ namespace FinancialGoalsManager.Extensions.DependencyInjections
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<ISendEmail, SendEmail>();
+            services.AddScoped<IBusService, BusServiceMassTransit>();
+
 
             //AutoMapper
-
             services.AddAutoMapper(typeof(FinanciaGoalPeofile));
 
 
