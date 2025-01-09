@@ -1,4 +1,5 @@
-﻿using FinancialGoalsManager.Domain.Enuns;
+﻿using FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalsTransactionsResponses;
+using FinancialGoalsManager.Domain.Enuns;
 using FinancialGoalsManager.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,6 @@ namespace FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalRespons
         public FinancialGoalsStatusEnum Status { get; private set; }
         public DateTime CreatedAt { get; private set; }
         public bool IsDeleted { get; private set; }
-        public List<FinancialGoalTransactions> FinancialGoalTransactions { get; set; } = new List<FinancialGoalTransactions>();
+        public List<FinancialTransactionsResponse> FinancialGoalTransactions { get; set; } = new List<FinancialTransactionsResponse>();
     }
 }

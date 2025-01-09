@@ -69,6 +69,29 @@
         }
       }
     },
+    "/api/FinancialGoals/{id}": {
+      "get": {
+        "tags": [
+          "FinancialGoals"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/FinancialGoalsTransactions": {
       "post": {
         "tags": [
@@ -78,22 +101,22 @@
           "content": {
             "application/json-patch+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateFinancialGoalsTransactionsCommand"
+                "$ref": "#/components/schemas/CreateTransactionsCommand"
               }
             },
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateFinancialGoalsTransactionsCommand"
+                "$ref": "#/components/schemas/CreateTransactionsCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateFinancialGoalsTransactionsCommand"
+                "$ref": "#/components/schemas/CreateTransactionsCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateFinancialGoalsTransactionsCommand"
+                "$ref": "#/components/schemas/CreateTransactionsCommand"
               }
             }
           }
@@ -130,7 +153,7 @@
         },
         "additionalProperties": false
       },
-      "CreateFinancialGoalsTransactionsCommand": {
+      "CreateTransactionsCommand": {
         "type": "object",
         "properties": {
           "amount": {

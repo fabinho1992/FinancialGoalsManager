@@ -188,3 +188,10 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.genruntimeconfig.cache
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\ref\FinancialGoalsManager.Api.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\MailKit.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\MimeKit.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

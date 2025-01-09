@@ -1,6 +1,9 @@
 ﻿using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.CreateFinancialGoal;
 using FinancialGoalsManager.Application.FluentValidation;
+using FinancialGoalsManager.Application.Profiles;
+using FinancialGoalsManager.Application.ServicesEmail;
 using FinancialGoalsManager.Domain.IRepositories;
+using FinancialGoalsManager.Domain.Services;
 using FinancialGoalsManager.Infrastructure.DataContext;
 using FinancialGoalsManager.Infrastructure.Repositories;
 using FluentValidation;
@@ -35,6 +38,13 @@ namespace FinancialGoalsManager.Extensions.DependencyInjections
             services.AddScoped<IFinancialGoalRepository, FinancialGoalRepository>();
             services.AddScoped<IFinancialGoalTransactionRepository, FinancialGoalTransactionsRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<ISendEmail, SendEmail>();
+
+            //AutoMapper
+
+            services.AddAutoMapper(typeof(FinanciaGoalPeofile));
+
 
             return services;
         }
@@ -69,5 +79,7 @@ namespace FinancialGoalsManager.Extensions.DependencyInjections
 
             return services;
         }
+
+        
     }
 }

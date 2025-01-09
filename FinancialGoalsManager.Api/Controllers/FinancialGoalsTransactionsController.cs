@@ -17,7 +17,7 @@ namespace FinancialGoalsManager.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(CreateFinancialGoalsTransactionsCommand command)
+        public async Task<IActionResult> Create(CreateTransactionsCommand command)
         {
             var result = await _mediator.Send(command);
             return Ok(result);

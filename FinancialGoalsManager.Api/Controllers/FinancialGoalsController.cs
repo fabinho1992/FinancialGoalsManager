@@ -1,4 +1,5 @@
 ﻿using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.CreateFinancialGoal;
+using FinancialGoalsManager.Application.Queries.FinancialGoalQueries.FinancialGoalById;
 using FinancialGoalsManager.Application.Queries.FinancialGoalQueries.FinancialGoalList;
 using FinancialGoalsManager.Domain.Models;
 using MediatR;
@@ -21,6 +22,11 @@ namespace FinancialGoalsManager.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateFinancialGoalCommand command)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var result = await _mediator.Send(command);
             if (result.IsSuccess)
             {
@@ -41,6 +47,19 @@ namespace FinancialGoalsManager.Api.Controllers
             if (!result.IsSuccess)
             {
                 return NotFound(result.Message);
+            }
+
+            return Ok(result);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var query = new FinancialGoalByIdQuery(id);
+            var result = await _mediator.Send(query);
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result.Message);
             }
 
             return Ok(result);

@@ -37,6 +37,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsController",
+    "Method": "GetById",
+    "RelativePath": "api/FinancialGoals/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsTransactionsController",
     "Method": "Create",
     "RelativePath": "api/FinancialGoalsTransactions",
@@ -46,7 +62,7 @@
     "Parameters": [
       {
         "Name": "command",
-        "Type": "FinancialGoalsManager.Application.Commands.FinancialGoalsTransactionsCommands.CreateFinancialGoalsTransactions.CreateFinancialGoalsTransactionsCommand",
+        "Type": "FinancialGoalsManager.Application.Commands.FinancialGoalsTransactionsCommands.CreateFinancialGoalsTransactions.CreateTransactionsCommand",
         "IsRequired": true
       }
     ],
