@@ -19,6 +19,7 @@ namespace FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalRespons
         public FinancialGoalsStatusEnum Status { get; private set; }
         public DateTime CreatedAt { get; private set; }
         public bool IsDeleted { get; private set; }
+        public double SalvedValue { get; private set; }
         public List<FinancialTransactionsResponse> FinancialGoalTransactions { get; set; } = new List<FinancialTransactionsResponse>();
     }
 }

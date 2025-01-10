@@ -19,6 +19,7 @@ namespace FinancialGoalsManager.Domain.Models
             Status = FinancialGoalsStatusEnum.InProgress;
             CreatedAt = DateTime.Now;
             IsDeleted = false;
+            SavedValue = 0;
         }
 
         public Guid Id { get; private set; }

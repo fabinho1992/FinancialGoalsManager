@@ -34,7 +34,9 @@ namespace FinancialGoalsManager.Application.Queries.FinancialGoalQueries.Financi
                 deadline: f.Deadline,
                 idealMonthlySaving: f.IdealMonthlySaving,
                 status: f.Status,
-                createdAt:f.CreatedAt
+                createdAt: f.CreatedAt,
+                salvedValue: f.SavedValue
+                
                 )).ToList();
 
             return ResultViewModel<List<FinancialGoalResponse>>.Success(financialResponses);

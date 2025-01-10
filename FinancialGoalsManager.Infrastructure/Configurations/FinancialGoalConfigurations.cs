@@ -39,6 +39,10 @@ namespace FinancialGoalsManager.Infrastructure.Configurations
             builder.Property(x => x.CreatedAt)
                 .IsRequired();
 
+            builder.Property(x => x.SavedValue)
+                .HasPrecision(10, 2)
+                .IsRequired();
+
             builder.Property(x => x.IsDeleted)
                 .IsRequired();
 

@@ -1,4 +1,5 @@
 ﻿using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.CreateFinancialGoal;
+using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.DeleteFinancialGoal;
 using FinancialGoalsManager.Application.Queries.FinancialGoalQueries.FinancialGoalById;
 using FinancialGoalsManager.Application.Queries.FinancialGoalQueries.FinancialGoalList;
 using FinancialGoalsManager.Domain.Models;
@@ -63,6 +64,25 @@ namespace FinancialGoalsManager.Api.Controllers
             }
 
             return Ok(result);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(DeleteFinancialCommand command)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var result = await _mediator.Send(command);
+
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result.Message);
+            }
+
+            return NoContent();
+
         }
     }
 }

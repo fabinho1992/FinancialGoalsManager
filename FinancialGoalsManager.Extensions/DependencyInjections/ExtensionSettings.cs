@@ -1,5 +1,5 @@
 ﻿using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.CreateFinancialGoal;
-using FinancialGoalsManager.Application.FluentValidation;
+using FinancialGoalsManager.Application.FluentValidation.FinancialGoalsValidations;
 using FinancialGoalsManager.Application.Profiles;
 using FinancialGoalsManager.Application.ServicesEmail;
 using FinancialGoalsManager.Domain.IRepositories;
@@ -46,7 +46,7 @@ namespace FinancialGoalsManager.Extensions.DependencyInjections
 
 
             //AutoMapper
-            services.AddAutoMapper(typeof(FinanciaGoalPeofile));
+            services.AddAutoMapper(typeof(FinanciaGoalProfile));
 
 
             return services;

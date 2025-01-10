@@ -3,6 +3,7 @@ using FinancialGoalsManager.Domain.IRepositories;
 using FinancialGoalsManager.Domain.Models;
 using FinancialGoalsManager.Infrastructure.Repositories;
 using MassTransit;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,12 @@ namespace FinancialGoalsManager.Infrastructure.Consumers
     public class TransactionCreatedConsumer : IConsumer<FinancialGoalTransactions>
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ILogger<TransactionCreatedConsumer> _logger;
 
-        public TransactionCreatedConsumer(IUnitOfWork unitOfWork)
+        public TransactionCreatedConsumer(IUnitOfWork unitOfWork, ILogger<TransactionCreatedConsumer> logger)
         {
             _unitOfWork = unitOfWork;
+            _logger = logger;
         }
 
         public async Task Consume(ConsumeContext<FinancialGoalTransactions> context)
@@ -27,9 +30,12 @@ namespace FinancialGoalsManager.Infrastructure.Consumers
             if (financialGoal != null && evento.TransactionType == TransactionTypeEnum.Deposit)
             {
                 financialGoal.DepositAmout(evento.Amount);
-                await _financialGoalRepository.UpdateAsync(financialGoal);
+                await _unitOfWork.FinancialGoalRepository.Update(financialGoal);
+                await _unitOfWork.Commit();
             }
+
+            _logger.LogInformation($"Depositado o valor R${evento.Amount},00");
         }
     }
 }
-}
+

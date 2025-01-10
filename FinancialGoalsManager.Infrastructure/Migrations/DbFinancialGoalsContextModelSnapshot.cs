@@ -50,6 +50,10 @@ namespace FinancialGoalsManager.Infrastructure.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("NVARCHAR");
 
+                    b.Property<double>("SavedValue")
+                        .HasPrecision(10, 2)
+                        .HasColumnType("float(10)");
+
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
