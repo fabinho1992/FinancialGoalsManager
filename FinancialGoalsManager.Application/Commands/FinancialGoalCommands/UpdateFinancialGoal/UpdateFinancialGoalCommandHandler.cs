@@ -3,6 +3,7 @@ using FinancialGoalsManager.Application.Dtos;
 using FinancialGoalsManager.Domain.Errors;
 using FinancialGoalsManager.Domain.IRepositories;
 using MediatR;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,11 +16,13 @@ namespace FinancialGoalsManager.Application.Commands.FinancialGoalCommands.Updat
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly ILogger<UpdateFinancialGoalCommandHandler> _logger;
 
-        public UpdateFinancialGoalCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
+        public UpdateFinancialGoalCommandHandler(IUnitOfWork unitOfWork, IMapper mapper, ILogger<UpdateFinancialGoalCommandHandler> logger)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public async Task<ResultViewModel<Guid>> Handle(UpdateFinancialGoalCommand request, CancellationToken cancellationToken)
@@ -32,6 +35,11 @@ namespace FinancialGoalsManager.Application.Commands.FinancialGoalCommands.Updat
 
             _mapper.Map(request, financial);
             await _unitOfWork.FinancialGoalRepository.Update(financial);
+            await _unitOfWork.Commit();
+
+            _logger.LogInformation($"Financial goal de id {financial.Id}, alterado");
+
+            return ResultViewModel<Guid>.Success(financial.Id);
         }
     }
 }

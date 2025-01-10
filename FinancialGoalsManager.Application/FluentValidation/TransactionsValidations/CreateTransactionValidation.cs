@@ -20,7 +20,7 @@ namespace FinancialGoalsManager.Application.FluentValidation.TransactionsValidat
             RuleFor(t => t.FinancialGoalId).NotEmpty().NotNull()
                 .WithMessage("FinancialGoalId connot be null");
 
-            RuleFor(t => t.TransactionType).NotEmpty().NotNull()
+            RuleFor(t => t.TransactionType).IsInEnum()
                 .WithMessage("TransactionType cannot be null");
         }
     }

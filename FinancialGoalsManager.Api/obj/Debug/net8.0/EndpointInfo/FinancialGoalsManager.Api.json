@@ -101,6 +101,40 @@
             "description": "OK"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "FinancialGoals"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFinancialGoalCommand"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFinancialGoalCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFinancialGoalCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateFinancialGoalCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/FinancialGoals/{id}": {
@@ -220,6 +254,32 @@
           "Withdraw"
         ],
         "type": "string"
+      },
+      "UpdateFinancialGoalCommand": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "goalAmount": {
+            "type": "number",
+            "format": "double"
+          },
+          "deadline": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idealMonthlySaving": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
       }
     }
   }

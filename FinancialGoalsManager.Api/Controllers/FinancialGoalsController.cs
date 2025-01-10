@@ -1,5 +1,6 @@
 ﻿using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.CreateFinancialGoal;
 using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.DeleteFinancialGoal;
+using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.UpdateFinancialGoal;
 using FinancialGoalsManager.Application.Queries.FinancialGoalQueries.FinancialGoalById;
 using FinancialGoalsManager.Application.Queries.FinancialGoalQueries.FinancialGoalList;
 using FinancialGoalsManager.Domain.Models;
@@ -83,6 +84,19 @@ namespace FinancialGoalsManager.Api.Controllers
 
             return NoContent();
 
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(UpdateFinancialGoalCommand command)
+        {
+            var result = await _mediator.Send(command);
+
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result.Message);
+            }
+
+            return NoContent();
         }
     }
 }
