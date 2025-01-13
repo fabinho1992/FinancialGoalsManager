@@ -3,6 +3,7 @@ using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.DeleteFin
 using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.UpdateFinancialGoal;
 using FinancialGoalsManager.Application.Queries.FinancialGoalQueries.FinancialGoalById;
 using FinancialGoalsManager.Application.Queries.FinancialGoalQueries.FinancialGoalList;
+using FinancialGoalsManager.Application.Queries.FinancialGoalQueries.IncomeSimulation;
 using FinancialGoalsManager.Domain.Models;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -97,6 +98,14 @@ namespace FinancialGoalsManager.Api.Controllers
             }
 
             return NoContent();
+        }
+
+        [HttpPost("Income simulation")]
+        public async Task<IActionResult> CreateSimulation(IncomeSimulationQuery query)
+        {
+            var result = await _mediator.Send(query);
+            return Ok(result);
+
         }
     }
 }

@@ -160,6 +160,42 @@
         }
       }
     },
+    "/api/FinancialGoals/Income simulation": {
+      "post": {
+        "tags": [
+          "FinancialGoals"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncomeSimulationQuery"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncomeSimulationQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncomeSimulationQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/IncomeSimulationQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/FinancialGoalsTransactions": {
       "post": {
         "tags": [
@@ -244,6 +280,24 @@
           "id": {
             "type": "string",
             "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IncomeSimulationQuery": {
+        "type": "object",
+        "properties": {
+          "amountInvested": {
+            "type": "number",
+            "format": "double"
+          },
+          "rate": {
+            "type": "number",
+            "format": "double"
+          },
+          "months": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

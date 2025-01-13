@@ -85,6 +85,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsController",
+    "Method": "CreateSimulation",
+    "RelativePath": "api/FinancialGoals/Income simulation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "FinancialGoalsManager.Application.Queries.FinancialGoalQueries.IncomeSimulation.IncomeSimulationQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsTransactionsController",
     "Method": "Create",
     "RelativePath": "api/FinancialGoalsTransactions",

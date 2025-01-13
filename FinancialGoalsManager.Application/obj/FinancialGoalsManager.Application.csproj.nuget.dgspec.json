@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj": {}
+    "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj",
         "projectName": "FinancialGoalsManager.Application",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj"
               }
             }
           }
@@ -95,20 +96,20 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj",
         "projectName": "FinancialGoalsManager.Domain",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -117,6 +118,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -160,20 +162,20 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
+    "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj",
+        "projectUniqueName": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj",
         "projectName": "FinancialGoalsManager.Infrastructure",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\obj\\",
+        "projectPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
+        "outputPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -182,14 +184,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj"
+              "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj": {
+                "projectPath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Domain\\FinancialGoalsManager.Domain.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ve4McnksBGA=",
+  "dgSpecHash": "AezY+I9IVjo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj",
+  "projectFilePath": "C:\\AulasAluraBackEnd\\ProjetosMentoria\\ApiGerenciadorDeObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests\\FinancialGoalsManager.Tests.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
