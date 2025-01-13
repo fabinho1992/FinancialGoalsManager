@@ -24,8 +24,4 @@
     <ProjectReference Include="..\FinancialGoalsManager.Infrastructure\FinancialGoalsManager.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Queries\TransactionsQueries\TransactionsList\" />
-  </ItemGroup>
-
 </Project>

@@ -1,7 +1,10 @@
 ﻿using FinancialGoalsManager.Application.Commands.FinancialGoalsTransactionsCommands.CreateFinancialGoalsTransactions;
+using FinancialGoalsManager.Application.Queries.TransactionsQueries.TransactionsList;
+using FinancialGoalsManager.Domain.Models;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace FinancialGoalsManager.Api.Controllers
 {
@@ -20,6 +23,20 @@ namespace FinancialGoalsManager.Api.Controllers
         public async Task<IActionResult> Create(CreateTransactionsCommand command)
         {
             var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationParameters pagination)
+        {
+            var query = new TransactionListQuery(pagination.PageNumber, pagination.PageSize);
+            var result = await _mediator.Send(query);
+
+            if (!result.IsSuccess)
+            {
+                return NotFound(result.Message);
+            }
+
             return Ok(result);
         }
     }

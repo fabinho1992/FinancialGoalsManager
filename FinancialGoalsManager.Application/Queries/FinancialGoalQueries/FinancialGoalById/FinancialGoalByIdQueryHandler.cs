@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FinancialGoalsManager.Application.Dtos;
 using FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalResponses;
+using FinancialGoalsManager.Domain.Errors;
 using FinancialGoalsManager.Domain.IRepositories;
 using MediatR;
 using System;
@@ -27,10 +28,12 @@ namespace FinancialGoalsManager.Application.Queries.FinancialGoalQueries.Financi
             var goal = await _unitOfWork.FinancialGoalRepository.GetByIdAsync(request.Id);
             if (goal is null)
             {
-                return ResultViewModel<FinancialGoalByIdResponse>.Error("The financial goal could not be found");
+                return ResultViewModel<FinancialGoalByIdResponse>
+                    .Error(FinancialGoalErrors.NotFound.ToString());
             }
 
             var goalResponse = _mapper.Map<FinancialGoalByIdResponse>(goal);
+            goalResponse.SalvedValue = goal.SavedValue;
             return ResultViewModel<FinancialGoalByIdResponse>.Success(goalResponse);
         }
     }

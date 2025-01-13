@@ -1,5 +1,6 @@
 ﻿using FinancialGoalsManager.Application.Dtos;
 using FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalResponses;
+using FinancialGoalsManager.Domain.Errors;
 using FinancialGoalsManager.Domain.IRepositories;
 using MediatR;
 using System;
@@ -24,7 +25,8 @@ namespace FinancialGoalsManager.Application.Queries.FinancialGoalQueries.Financi
             var financials = await _unitOfWork.FinancialGoalRepository.GetAllAsync(request);
             if (financials is null)
             {
-                return ResultViewModel<List<FinancialGoalResponse>>.Error("The financial goal could not be found");
+                return ResultViewModel<List<FinancialGoalResponse>>
+                    .Error(FinancialGoalErrors.NotFound.ToString());
             } 
 
             var financialResponses = financials.Select(f => new FinancialGoalResponse(
@@ -34,7 +36,7 @@ namespace FinancialGoalsManager.Application.Queries.FinancialGoalQueries.Financi
                 deadline: f.Deadline,
                 idealMonthlySaving: f.IdealMonthlySaving,
                 status: f.Status,
-                createdAt: f.CreatedAt,
+                createdAt: f.CreatedAt.ToString("d"),
                 salvedValue: f.SavedValue
                 
                 )).ToList();

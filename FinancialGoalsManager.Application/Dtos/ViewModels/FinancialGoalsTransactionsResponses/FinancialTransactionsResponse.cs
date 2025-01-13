@@ -9,7 +9,7 @@ namespace FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalsTransa
 {
     public class FinancialTransactionsResponse
     {
-        public FinancialTransactionsResponse(Guid id, double amount, DateTime transactionDate, TransactionTypeEnum transactionType)
+        public FinancialTransactionsResponse(Guid id, double amount, string transactionDate, TransactionTypeEnum transactionType)
         {
             Id = id;
             Amount = amount;
@@ -19,7 +19,7 @@ namespace FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalsTransa
 
         public Guid Id { get; private set; }
         public double Amount { get; private set; }
-        public DateTime TransactionDate { get; private set; }
+        public string TransactionDate { get; private set; }
         public TransactionTypeEnum TransactionType { get; private set; }
     }
 }
