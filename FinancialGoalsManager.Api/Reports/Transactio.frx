@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="01/13/2025 21:27:04" ReportInfo.Modified="01/13/2025 21:40:20" ReportInfo.CreatorVersion="2024.2.0.0">
+  <Styles Name="Standard">
+    <Style Name="Title" Font="Arial, 12pt, style=Bold"/>
+    <Style Name="Header" Font="Arial, 10pt, style=Bold"/>
+    <Style Name="Group" Font="Arial, 10pt, style=Bold"/>
+    <Style Name="Data" Font="Arial, 10pt"/>
+    <Style Name="Footer" Font="Arial, 10pt"/>
+    <Style Name="EvenRows" Fill.Color="WhiteSmoke" Font="Arial, 10pt"/>
+  </Styles>
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqFoSVpHbZoDyDTE+5mwjJzXiMQa6U6KF3nMtUYFUrFhsCihMgrrjXVcFTTI5MxF/j+Jzab0VfPpNQfCqWTwq9STdEAfqUMPOOayUUiQ+5SjLiG1bk/1JFa7eq5MWt7eb4TaSDtNWgHe2lgx3702vlcjky7qQrWLRWL2fe94/lSzLuuti1KJxElB+0FQwChCT/nfnRSN84djXZmj1o1HEHMsQjl9woYmtfcVro2e8vxDo=">
+      <TableDataSource Name="Table" Alias="Transactions" DataType="System.Int32" Enabled="true" SelectCommand="SELECT &#13;&#10;    CAST(fgt.TransactionDate AS DATE) AS TransactionDate,&#13;&#10;    fgt.Amount&#13;&#10;FROM &#13;&#10;    FinancialGoalTransactions fgt&#13;&#10;WHERE &#13;&#10;    fgt.FinancialGoalId = @FinancialGoalId&#13;&#10;&#13;&#10;UNION ALL&#13;&#10;&#13;&#10;SELECT &#13;&#10;    CAST(NULL AS DATE) AS TransactionDate, -- Para manter a estrutura da tabela&#13;&#10;    SUM(fgt.Amount) AS TotalAmount&#13;&#10;FROM &#13;&#10;    FinancialGoalTransactions fgt&#13;&#10;WHERE &#13;&#10;    fgt.FinancialGoalId = @FinancialGoalId;">
+        <Column Name="TransactionDate" DataType="System.Char" Format="Date"/>
+        <Column Name="Amount" DataType="System.Double"/>
+        <CommandParameter Name="FinancialGoalId" DataType="22" Expression="[FinancialGoalId]"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="FinancialGoalId" DataType="System.String" AsString=""/>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="94.5">
+      <TextObject Name="Text1" Width="1047.06" Height="94.5" Dock="Fill" Fill.Color="Gainsboro" Text="Transactions" HorzAlign="Center" VertAlign="Center" Font="Arial, 18pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="98.5" Width="1047.06" Height="56.7">
+      <TextObject Name="Text3" Top="9.45" Width="519.75" Height="18.9" Text="TransactionDate" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/>
+      <TextObject Name="Text5" Left="519.75" Top="9.45" Width="519.75" Height="18.9" Text="Amount" HorzAlign="Center" VertAlign="Center" Font="Arial, 14pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="159.2" Width="1047.06" Height="47.25" EvenStyle="EvenRows" DataSource="Table">
+      <TextObject Name="Text2" Top="9.45" Width="519.75" Height="18.9" Text="[Transactions.TransactionDate]" Format="Date" Format.Format="d" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 12pt"/>
+      <TextObject Name="Text4" Left="519.75" Top="9.45" Width="519.75" Height="18.9" Text="R$[Transactions.Amount]" HorzAlign="Center" VertAlign="Bottom" Font="Arial, 12pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="210.45" Width="1047.06" Height="85.05">
+      <TextObject Name="Text6" Width="1047.06" Height="85.05" Dock="Fill" Text="[PageN]" HorzAlign="Right" Font="Arial, 10pt" Style="Footer"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

@@ -31,6 +31,12 @@ namespace FinancialGoalsManager.Infrastructure.Repositories
                 .Take(paginationParameters.PageSize).ToListAsync();
         }
 
+        public async Task<IEnumerable<FinancialGoalTransactions>> GetAllReport()
+        {
+            return await _context.FinancialGoalTransactions.Include(a => a.FinancialGoal)
+                .ToListAsync();
+        }
+
         public async Task<FinancialGoalTransactions> GetByIdAsync(Guid id)
         {
             var financialTransaction = await _context.FinancialGoalTransactions
@@ -40,13 +46,14 @@ namespace FinancialGoalsManager.Infrastructure.Repositories
             return financialTransaction;
         }
 
-        public async Task<FinancialGoalTransactions> GetByIdFinancialGoalAsync(Guid id)
+        public async Task<List<FinancialGoalTransactions>> GetByIdFinancialGoalAsync(Guid id)
         {
-            var financialTransaction = await _context.FinancialGoalTransactions
+            var financialTransactions = await _context.FinancialGoalTransactions
                 .Include(f => f.FinancialGoal)
-                .SingleOrDefaultAsync(f => f.FinancialGoal.Id == id);
+                .Where(f => f.FinancialGoal.Id == id) // Filtra as transações pela meta financeira
+                .ToListAsync(); // Retorna uma lista
 
-            return financialTransaction;
+            return financialTransactions;
         }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using FinancialGoalsManager.Application.Commands.FinancialGoalsTransactionsCommands.CreateFinancialGoalsTransactions;
+using FinancialGoalsManager.Application.Queries.TransactionsQueries.TransactionById;
+using FinancialGoalsManager.Application.Queries.TransactionsQueries.TransactionByIdFinancial;
 using FinancialGoalsManager.Application.Queries.TransactionsQueries.TransactionsList;
 using FinancialGoalsManager.Domain.Models;
 using MediatR;
@@ -39,5 +41,34 @@ namespace FinancialGoalsManager.Api.Controllers
 
             return Ok(result);
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var query = new TransactionByIdQuery(id);
+            var result = await _mediator.Send(query);
+
+            if (!result.IsSuccess)
+            {
+                return NotFound(result.Message);
+            }
+
+            return Ok(result);
+        }
+
+        [HttpGet("financialGoalId/{id}")]
+        public async Task<IActionResult> GetByIdFinancialGoal(Guid id)
+        {
+            var query = new TransactionFinanQuery(id);
+            var result = await _mediator.Send(query);
+
+            if (!result.IsSuccess)
+            {
+                return NotFound(result.Message);
+            }
+
+            return Ok(result);
+        }
     }
 }
+

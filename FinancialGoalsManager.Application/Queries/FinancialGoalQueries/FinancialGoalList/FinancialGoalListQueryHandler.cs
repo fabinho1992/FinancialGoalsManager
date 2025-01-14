@@ -33,11 +33,12 @@ namespace FinancialGoalsManager.Application.Queries.FinancialGoalQueries.Financi
                 id: f.Id,
                 name: f.Name,
                 goalAmount: f.GoalAmount,
-                deadline: f.Deadline,
+                deadline: f.Deadline.ToString("d"),
                 idealMonthlySaving: f.IdealMonthlySaving,
                 status: f.Status,
                 createdAt: f.CreatedAt.ToString("d"),
-                salvedValue: f.SavedValue
+                salvedValue: f.SavedValue,
+                selectedMonths:f.SelectedMonths
                 
                 )).ToList();
 

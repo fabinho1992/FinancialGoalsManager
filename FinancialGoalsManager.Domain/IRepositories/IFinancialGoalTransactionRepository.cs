@@ -12,6 +12,7 @@ namespace FinancialGoalsManager.Domain.IRepositories
         Task CreateAsync(FinancialGoalTransactions financialGoalTransactions);
         Task<List<FinancialGoalTransactions>> GetAllAsync(PaginationParameters paginationParameters);
         Task<FinancialGoalTransactions> GetByIdAsync(Guid id);
-        Task<FinancialGoalTransactions> GetByIdFinancialGoalAsync(Guid id);
+        Task<List<FinancialGoalTransactions>> GetByIdFinancialGoalAsync(Guid id);
+        Task<IEnumerable<FinancialGoalTransactions>> GetAllReport();
     }
 }

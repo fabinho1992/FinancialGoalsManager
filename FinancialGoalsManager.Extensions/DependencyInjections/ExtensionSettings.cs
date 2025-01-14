@@ -1,6 +1,8 @@
-﻿using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.CreateFinancialGoal;
+﻿using FastReport.Data;
+using FinancialGoalsManager.Application.Commands.FinancialGoalCommands.CreateFinancialGoal;
 using FinancialGoalsManager.Application.FluentValidation.FinancialGoalsValidations;
 using FinancialGoalsManager.Application.Profiles;
+using FinancialGoalsManager.Application.ServiceReport;
 using FinancialGoalsManager.Application.ServicesEmail;
 using FinancialGoalsManager.Domain.IRepositories;
 using FinancialGoalsManager.Domain.Services;
@@ -43,6 +45,11 @@ namespace FinancialGoalsManager.Extensions.DependencyInjections
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<ISendEmail, SendEmail>();
             services.AddScoped<IBusService, BusServiceMassTransit>();
+            services.AddScoped<IGenerateDataTableReport, GenerateDataTableReport>();
+
+            //FastReport
+            services.AddFastReport();
+            FastReport.Utils.RegisteredObjects.AddConnection(typeof(MsSqlDataConnection));
 
 
             //AutoMapper

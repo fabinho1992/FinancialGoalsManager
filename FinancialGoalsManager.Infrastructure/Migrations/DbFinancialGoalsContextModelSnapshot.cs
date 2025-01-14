@@ -54,6 +54,9 @@ namespace FinancialGoalsManager.Infrastructure.Migrations
                         .HasPrecision(10, 2)
                         .HasColumnType("float(10)");
 
+                    b.Property<int>("SelectedMonths")
+                        .HasColumnType("int");
+
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

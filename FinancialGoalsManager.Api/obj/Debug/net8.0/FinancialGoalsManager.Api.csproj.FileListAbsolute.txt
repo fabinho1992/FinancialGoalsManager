@@ -195,13 +195,10 @@ C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoO
 C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.pdb
 C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\ref\FinancialGoalsManager.Api.dll
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.csproj.AssemblyReference.cache
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.AssemblyInfoInputs.cache
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.AssemblyInfo.cs
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.csproj.CoreCompileInputs.cache
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.sourcelink.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\MassTransit.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\appsettings.json
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FinancialGoalsManager.Api.staticwebassets.endpoints.json
@@ -214,6 +211,10 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\Azure.Core.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\Azure.Identity.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FastReport.Compat.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FastReport.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FastReport.OpenSource.Export.PdfSimple.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FastReport.OpenSource.Web.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FluentValidation.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
@@ -231,6 +232,7 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
@@ -278,6 +280,7 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\System.Data.SqlClient.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\System.Formats.Asn1.dll
@@ -330,6 +333,19 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
@@ -363,6 +379,11 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
@@ -370,6 +391,7 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FastReport.Data.MsSql.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FinancialGoalsManager.Application.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FinancialGoalsManager.Domain.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FinancialGoalsManager.Extensions.dll
@@ -378,6 +400,14 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FinancialGoalsManager.Extensions.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FinancialGoalsManager.Domain.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\FinancialGoalsManager.Infrastructure.pdb
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.csproj.AssemblyReference.cache
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.AssemblyInfoInputs.cache
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.AssemblyInfo.cs
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.csproj.CoreCompileInputs.cache
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.sourcelink.json
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\scopedcss\bundle\FinancialGoalsManager.Api.styles.css
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\staticwebassets.development.json
@@ -395,8 +425,3 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.genruntimeconfig.cache
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\ref\FinancialGoalsManager.Api.dll
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\MassTransit.dll
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\MassTransit.Abstractions.dll
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
-C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Api\obj\Debug\net8.0\FinancialGoalsManager.Api.MvcApplicationPartsAssemblyInfo.cs

@@ -1,0 +1,19 @@
+Consulta Sql , para obter os amounts e o total e usar no fastReport
+
+SELECT 
+    CAST(fgt.TransactionDate AS DATE) AS TransactionDate,
+    fgt.Amount
+FROM 
+    FinancialGoalTransactions fgt
+WHERE 
+    fgt.FinancialGoalId = 'C4690F58-5BAC-489F-847E-21D7658C1783'
+
+UNION ALL
+
+SELECT 
+    CAST(NULL AS DATE) AS TransactionDate, -- Para manter a estrutura da tabela
+    SUM(fgt.Amount) AS TotalAmount
+FROM 
+    FinancialGoalTransactions fgt
+WHERE 
+    fgt.FinancialGoalId = 'C4690F58-5BAC-489F-847E-21D7658C1783';

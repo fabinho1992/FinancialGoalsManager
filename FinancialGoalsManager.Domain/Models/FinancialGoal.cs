@@ -20,6 +20,7 @@ namespace FinancialGoalsManager.Domain.Models
             CreatedAt = DateTime.Now;
             IsDeleted = false;
             SavedValue = 0;
+            CalculateSelectedMonths();
         }
 
         public Guid Id { get; private set; }
@@ -29,6 +30,7 @@ namespace FinancialGoalsManager.Domain.Models
         public double IdealMonthlySaving { get; private set; }
         public FinancialGoalsStatusEnum Status { get; private set; }
         public DateTime CreatedAt { get; private set; }
+        public int SelectedMonths { get; private set; }
         public double SavedValue { get; private set; }
         public bool IsDeleted { get; private set; }
         public List<FinancialGoalTransactions> FinancialGoalTransactions { get; set; } = new List<FinancialGoalTransactions>();
@@ -42,6 +44,18 @@ namespace FinancialGoalsManager.Domain.Models
         public void DepositAmout(double value)
         {
             SavedValue += value;
+        }
+
+        public void CalculateSelectedMonths()
+        {
+            // Obtém a data atual sem a hora
+            DateTime currentDate = DateTime.Today;
+
+            // Calcula a diferença entre a Deadline e a data atual
+            int monthsDifference = ((Deadline.Year - currentDate.Year) * 12) + Deadline.Month - currentDate.Month;
+
+            // Atribui o valor calculado à propriedade SelectedMonths
+            SelectedMonths = monthsDifference;
         }
     }
 
