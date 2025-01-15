@@ -57,6 +57,11 @@ namespace FinancialGoalsManager.Domain.Models
             // Atribui o valor calculado à propriedade SelectedMonths
             SelectedMonths = monthsDifference;
         }
+
+        public void InsertIdTest(Guid id)
+        {
+            Id = id;
+        }
     }
 
 }

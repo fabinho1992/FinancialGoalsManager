@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FinancialGoalsManager.Tests/1.0.0": {
+        "runtime": {
+          "FinancialGoalsManager.Tests.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinancialGoalsManager.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

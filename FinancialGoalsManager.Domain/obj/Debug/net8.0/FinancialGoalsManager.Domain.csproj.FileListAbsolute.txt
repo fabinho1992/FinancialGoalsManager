@@ -1,15 +1,3 @@
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\bin\Debug\net8.0\FinancialGoalsManager.Domain.deps.json
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\bin\Debug\net8.0\FinancialGoalsManager.Domain.dll
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\bin\Debug\net8.0\FinancialGoalsManager.Domain.pdb
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.AssemblyInfo.cs
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.sourcelink.json
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.dll
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\refint\FinancialGoalsManager.Domain.dll
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.pdb
-C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\ref\FinancialGoalsManager.Domain.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\bin\Debug\net8.0\FinancialGoalsManager.Domain.deps.json
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\bin\Debug\net8.0\FinancialGoalsManager.Domain.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\bin\Debug\net8.0\FinancialGoalsManager.Domain.pdb
@@ -22,3 +10,15 @@ C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\Finan
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\refint\FinancialGoalsManager.Domain.dll
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.pdb
 C:\AulasAluraBackEnd\ProjetosMentoria\ApiGerenciadorDeObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\ref\FinancialGoalsManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\bin\Debug\net8.0\FinancialGoalsManager.Domain.deps.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\bin\Debug\net8.0\FinancialGoalsManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\bin\Debug\net8.0\FinancialGoalsManager.Domain.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.sourcelink.json
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\refint\FinancialGoalsManager.Domain.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\FinancialGoalsManager.Domain.pdb
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Domain\obj\Debug\net8.0\ref\FinancialGoalsManager.Domain.dll

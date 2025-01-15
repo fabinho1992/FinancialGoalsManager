@@ -8,6 +8,7 @@ using FinancialGoalsManager.Domain.Models;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Drawing;
 
 namespace FinancialGoalsManager.Api.Controllers
 {
@@ -33,7 +34,7 @@ namespace FinancialGoalsManager.Api.Controllers
             var result = await _mediator.Send(command);
             if (result.IsSuccess)
             {
-                return Ok(result);
+                return CreatedAtAction(nameof(GetById), new { id = result.Data }, command );
             }
             else
             {
