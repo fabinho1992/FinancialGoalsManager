@@ -311,6 +311,7 @@ C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoO
 C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Tests1\bin\Debug\net8.0\FastReport.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Tests1\bin\Debug\net8.0\FastReport.OpenSource.Export.PdfSimple.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Tests1\bin\Debug\net8.0\FastReport.OpenSource.Web.dll
+C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Tests1\bin\Debug\net8.0\FluentAssertions.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Tests1\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Tests1\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Usuario\Desktop\Cursos de Programação\ProjetosMentoria\GerenciamentoObjetivosFinanceiros\FinancialGoalsManager\FinancialGoalsManager.Tests1\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

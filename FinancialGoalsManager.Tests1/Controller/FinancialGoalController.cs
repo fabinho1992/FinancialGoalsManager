@@ -1,57 +1,68 @@
-﻿using FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalResponses;
-using FinancialGoalsManager.Application.Dtos;
-using Microsoft.AspNetCore.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Json;
-using System.Text;
-using System.Threading.Tasks;
-using FinancialGoalsManager.Tests1.Controller.Service;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
+﻿//using FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalResponses;
+//using FinancialGoalsManager.Application.Dtos;
+//using Microsoft.AspNetCore.Hosting;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Net.Http.Json;
+//using System.Text;
+//using System.Threading.Tasks;
+//using FinancialGoalsManager.Tests1.Controller.Service;
+//using Microsoft.VisualStudio.TestPlatform.TestHost;
+//using FinancialGoalsManager.Api.Controllers;
+//using FinancialGoalsManager.Domain.IRepositories;
+//using FinancialGoalsManager.Domain.Models;
+//using Microsoft.AspNetCore.Mvc;
+//using Moq;
 
-namespace FinancialGoalsManager.Tests1.Controller
-{
-    public class FinancialGoalControllerTests : IClassFixture<CustomWebApplicationFactory<Program>>
-    {
-        private readonly HttpClient _client;
+//namespace FinancialGoalsManager.Tests1.Controller
+//{
+//    public class FinancialGoalControllerTests : IClassFixture<ServiceTestsController>
+//    {
+//        private readonly FinancialGoalsController _controller;
 
-        public FinancialGoalControllerTests(CustomWebApplicationFactory<Program> factory)
-        {
-            _client = factory.CreateClient();
-        }
+//        public FinancialGoalControllerTests(ServiceTestsController controller)
+//        {
+//            _controller = new FinancialGoalsController(controller._mediator);
+//        }
 
-        [Fact]
-        public async Task GetById_ReturnsOk_WhenGoalExists()
-        {
-            // Arrange
-            var financialGoalId = "123e4567-e89b-12d3-a456-426655440000"; // Use um ID que você sabe que existe no banco de dados ou mocke o repositório
-            var resultId = Guid.Parse(financialGoalId);                                                              // Você pode precisar criar um objeto FinancialGoal no banco de dados antes de chamar o endpoint
+//        [Fact]
+//        public async Task GetById_ReturnsOk_WhenGoalExists()
+//        {
+//            // Arrange
+//            var financialGoalId = "123e4567-e89b-12d3-a456-426655440000";
+//            var resultId = Guid.Parse(financialGoalId);
 
-            // Act
-            var response = await _client.GetAsync($"/api/financialgoals/{resultId}");
+//            var mockFinancialGoal = new FinancialGoal("teste", 100, new DateTime(2026, 01, 01), 1000);
+//            mockFinancialGoal.InsertIdTest(resultId);
 
-            // Assert
-            response.EnsureSuccessStatusCode(); // Verifica se o status é 200-299
-            var result = await response.Content.ReadFromJsonAsync<ResultViewModel<FinancialGoalByIdResponse>>();
-            Assert.NotNull(result);
-            Assert.True(result.IsSuccess);
-            Assert.Equal(resultId, result.Data.Id);
-        }
+//            // Configurando o mock do IMediator para retornar a meta financeira
+//            _controller.Setup(m => m.Send(It.IsAny<GetFinancialGoalByIdQuery>(), It.IsAny<CancellationToken>()))
+//                          .ReturnsAsync(mockFinancialGoal);
 
-        //[Fact]
-        //public async Task GetById_ReturnsNotFound_WhenGoalDoesNotExist()
-        //{
-        //    // Arrange
-        //    var financialId = Guid.NewGuid(); // Um ID que não existe
+//            // Act
+//            var response = await _controller.GetById(resultId);
 
-        //    // Act
-        //    var response = await _client.GetAsync($"/api/financialgoals/{financialId}");
+//            // Assert
+//            var okResult = Assert.IsType<OkObjectResult>(response);
+//            var returnValue = Assert.IsType<FinancialGoal>(okResult.Value);
+//            Assert.Equal(resultId, returnValue.Id);
 
-        //    // Assert
-        //    Assert.Equal(System.Net.HttpStatusCode.BadRequest, response.StatusCode);
-        //    var result = await response.Content.ReadAsStringAsync();
-        //    Assert.Contains("NotFound", result); // Verifique se a mensagem de erro está correta
-        //}
-    }
-}
+//        }
+
+//        //[Fact]
+//        //public async Task GetById_ReturnsNotFound_WhenGoalDoesNotExist()
+//        //{
+//        //    // Arrange
+//        //    var financialId = Guid.NewGuid(); // Um ID que não existe
+
+//        //    // Act
+//        //    var response = await _client.GetAsync($"/api/financialgoals/{financialId}");
+
+//        //    // Assert
+//        //    Assert.Equal(System.Net.HttpStatusCode.BadRequest, response.StatusCode);
+//        //    var result = await response.Content.ReadAsStringAsync();
+//        //    Assert.Contains("NotFound", result); // Verifique se a mensagem de erro está correta
+//        //}
+//    }
+//}

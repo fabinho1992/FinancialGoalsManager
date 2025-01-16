@@ -41,6 +41,7 @@
           "FinancialGoalsManager.Domain": "1.0.0",
           "FinancialGoalsManager.Extensions": "1.0.0",
           "FinancialGoalsManager.Infrastructure": "1.0.0",
+          "FluentAssertions": "8.0.0",
           "Microsoft.AspNetCore.Mvc.Testing": "8.0.12",
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "Moq": "4.20.72",
@@ -482,6 +483,17 @@
         },
         "compile": {
           "lib/net6.0/FastReport.OpenSource.Web.dll": {}
+        }
+      },
+      "FluentAssertions/8.0.0": {
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {}
         }
       },
       "FluentValidation/11.5.1": {
@@ -4911,6 +4923,13 @@
       "sha512": "sha512-4HHfVBjAxFoQJWZPlJmWE7d5iRLAFJwsSe5J5ocPP4jwzgR5A+YhJxN7Q4gngqSthiBPpVe+vf735GKQnedXyg==",
       "path": "fastreport.opensource.web/2025.1.0",
       "hashPath": "fastreport.opensource.web.2025.1.0.nupkg.sha512"
+    },
+    "FluentAssertions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qVCJIpukyFb9TO9W3vC4/sQF8lfrQksJbo4071uk3YfmHyKKlCZTTpyYhmCnnTZ2LVfFP1JgxM652nolCFjZDw==",
+      "path": "fluentassertions/8.0.0",
+      "hashPath": "fluentassertions.8.0.0.nupkg.sha512"
     },
     "FluentValidation/11.5.1": {
       "type": "package",

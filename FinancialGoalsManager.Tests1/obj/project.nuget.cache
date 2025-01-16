@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t8vuVkSbMDg=",
+  "dgSpecHash": "+X+ZPTiN77c=",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Cursos de Programação\\ProjetosMentoria\\GerenciamentoObjetivosFinanceiros\\FinancialGoalsManager\\FinancialGoalsManager.Tests1\\FinancialGoalsManager.Tests1.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\fastreport.opensource\\2025.1.0\\fastreport.opensource.2025.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fastreport.opensource.export.pdfsimple\\2025.1.0\\fastreport.opensource.export.pdfsimple.2025.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fastreport.opensource.web\\2025.1.0\\fastreport.opensource.web.2025.1.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\fluentassertions\\8.0.0\\fluentassertions.8.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
