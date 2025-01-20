@@ -3,6 +3,7 @@
 using FinancialGoalsManager.Api.ErrorsMiddleware;
 using FinancialGoalsManager.Extensions.DependencyInjections;
 using FinancialGoalsManager.Infrastructure.Consumers;
+using Hangfire;
 using MassTransit;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
@@ -33,10 +34,15 @@ builder.Services.AddMassTransit(c =>
         config.ReceiveEndpoint("User_Created", e =>
         {
             e.ConfigureConsumer<UserCreatedConsumer>(context);
-            e.Bind(exchangeName, x => x.RoutingKey = "User_Created");
+            e.Bind(exchangeName, x => x.RoutingKey = "Transaction_Created");
         });
     });
 });
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddHangfire(x => x.UseSqlServerStorage(connectionString));
+builder.Services.AddHangfireServer();
+
 
 builder.Services.AddDependencyInjection();
 builder.Services.AddSettingsController();

@@ -34,7 +34,7 @@ namespace FinancialGoalsManager.Infrastructure.Consumers
                 await _unitOfWork.Commit();
             }
 
-            _logger.LogInformation($"Depositado o valor R${@evento.Amount},00");
+            _logger.LogInformation($"Depositado o valor R${@evento.Amount},00 / Id {evento.FinancialGoalId}");
         }
     }
 }

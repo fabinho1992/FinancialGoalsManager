@@ -27,9 +27,9 @@ namespace FinancialGoalsManager.Application.ServicesEmail
             return Task.CompletedTask;
         }
 
-        public async Task SendEmailUserCreated(Guid id)
+        public async Task SendEmailUserCreated(string email)
         {
-            var user = await _unitOfWork.UserRepository.GetByIdAsync(id);
+            var user = await _unitOfWork.UserRepository.GetByEmail(email);
 
             var message = $"Welcome {user.FullName}, registration completed successfully," +
                 $" now you can create a financial goal for your future.";

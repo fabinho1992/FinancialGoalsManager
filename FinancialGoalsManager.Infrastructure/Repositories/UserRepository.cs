@@ -37,6 +37,14 @@ namespace FinancialGoalsManager.Infrastructure.Repositories
                 .Take(parameters.PageSize).ToListAsync();
         }
 
+        public async Task<User> GetByEmail(string email)
+        {
+            var user = await _context.Users
+                .SingleOrDefaultAsync(u => u.Email == email);
+
+            return user;
+        }
+
         public async Task<User> GetByIdAsync(Guid id)
         {
 

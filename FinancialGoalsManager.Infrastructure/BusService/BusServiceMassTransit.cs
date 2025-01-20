@@ -33,9 +33,10 @@ namespace FinancialGoalsManager.Infrastructure.BusService
             throw new NotImplementedException();
         }
 
-        public Task PublishUserCreated<T>(T message)
+        public async Task PublishUserCreated<T>(T message)
         {
-            throw new NotImplementedException();
+            var endpoint = await _bus.GetSendEndpoint(new Uri($"rabbitmq://localhost/{_exchangeName}"));
+            await endpoint.Send(message);
         }
     }
 }

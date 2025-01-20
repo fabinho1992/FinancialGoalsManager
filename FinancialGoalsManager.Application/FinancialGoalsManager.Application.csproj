@@ -19,6 +19,7 @@
     <PackageReference Include="FastReport.OpenSource.Export.PdfSimple" Version="2025.1.0" />
     <PackageReference Include="FastReport.OpenSource.Web" Version="2025.1.0" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Hangfire" Version="1.8.17" />
     <PackageReference Include="MailKit" Version="4.9.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
