@@ -17,6 +17,7 @@ namespace FinancialGoalsManager.Infrastructure.DataContext
 
         public DbSet<FinancialGoal> FinancialGoals { get; set; }
         public DbSet<FinancialGoalTransactions> FinancialGoalTransactions { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

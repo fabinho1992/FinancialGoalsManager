@@ -40,7 +40,7 @@ namespace FinancialGoalsManager.Application.Commands.FinancialGoalsTransactionsC
             await _unitOfWork.FinancialGoalTransactionRepository.CreateAsync(newTransaction);
             await _unitOfWork.Commit();
 
-            await _busService.Publish(newTransaction);
+            await _busService.PublishTransaction(newTransaction);
 
             return ResultViewModel<Guid>.Success(newTransaction.Id);
 

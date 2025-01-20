@@ -13,6 +13,7 @@ namespace FinancialGoalsManager.Infrastructure.Repositories
 
         private IFinancialGoalRepository? _financialGoalRepository;
         private IFinancialGoalTransactionRepository? _financialGoalTransactionRepository;
+        private IUserRepository? _userRepository;
 
         private readonly DbFinancialGoalsContext _context;
 
@@ -34,6 +35,14 @@ namespace FinancialGoalsManager.Infrastructure.Repositories
             get
             {
                 return _financialGoalTransactionRepository = _financialGoalTransactionRepository ?? new FinancialGoalTransactionsRepository(_context);  
+            }
+        }
+
+        public IUserRepository UserRepository
+        {
+            get
+            {
+                return _userRepository = _userRepository ?? new UserRepository(_context);
             }
         }
 

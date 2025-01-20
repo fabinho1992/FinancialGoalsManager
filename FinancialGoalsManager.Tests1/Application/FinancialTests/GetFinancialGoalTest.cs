@@ -22,9 +22,10 @@ namespace FinancialGoalsManager.Tests1.Application.FinancialTests
             //Arrange
             var mockRepository = new Mock<IUnitOfWork>();
             var finacialId = new Guid();
-            var financial = new FinancialGoal("teste", 100,
+            var financial = new FinancialGoal(finacialId, "teste", 100,
                 new DateTime(2026 , 01, 18), 1000);
 
+            
             financial.InsertIdTest(finacialId);
 
             mockRepository.Setup(x => x.FinancialGoalRepository

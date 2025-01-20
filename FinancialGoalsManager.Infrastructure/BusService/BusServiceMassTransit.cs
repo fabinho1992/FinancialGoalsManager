@@ -22,10 +22,20 @@ namespace FinancialGoalsManager.Infrastructure.BusService
             _queueName = configuration["ConnectionStrings:RabbitMQ:QueueName"] ?? throw new Exception("QueueName não configurado!");
         }
 
-        public async Task Publish<T>(T message)
+        public async Task PublishTransaction<T>(T message)
         {
             var endpoint = await _bus.GetSendEndpoint(new Uri($"rabbitmq://localhost/{_exchangeName}"));
             await endpoint.Send(message);
+        }
+
+        public Task PublishTransactionCreated<T>(T message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task PublishUserCreated<T>(T message)
+        {
+            throw new NotImplementedException();
         }
     }
 }

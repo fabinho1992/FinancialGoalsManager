@@ -36,6 +36,9 @@ namespace FinancialGoalsManager.Application.FluentValidation.FinancialGoalsValid
                 .WithMessage("The target value must be greater than zero.")
                 .LessThanOrEqualTo(1000)
                 .WithMessage("The target value cannot be greater than 100.");
+
+            RuleFor(t => t.UserId).NotEmpty().NotNull()
+                .WithMessage("FinancialGoalId connot be null");
         }
 
     }

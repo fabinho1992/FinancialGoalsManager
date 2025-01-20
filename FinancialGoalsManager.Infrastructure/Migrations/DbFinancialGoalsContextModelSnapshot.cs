@@ -61,7 +61,12 @@ namespace FinancialGoalsManager.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("FinancialGoals");
                 });
@@ -96,6 +101,49 @@ namespace FinancialGoalsManager.Infrastructure.Migrations
                     b.ToTable("FinancialGoalTransactions");
                 });
 
+            modelBuilder.Entity("FinancialGoalsManager.Domain.Models.User", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Cpf")
+                        .IsRequired()
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar(11)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("NVARCHAR");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Cpf")
+                        .IsUnique();
+
+                    b.HasIndex("Email")
+                        .IsUnique();
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("FinancialGoalsManager.Domain.Models.FinancialGoal", b =>
+                {
+                    b.HasOne("FinancialGoalsManager.Domain.Models.User", "User")
+                        .WithMany("FinancialGoals")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("FinancialGoalsManager.Domain.Models.FinancialGoalTransactions", b =>
                 {
                     b.HasOne("FinancialGoalsManager.Domain.Models.FinancialGoal", "FinancialGoal")
@@ -110,6 +158,11 @@ namespace FinancialGoalsManager.Infrastructure.Migrations
             modelBuilder.Entity("FinancialGoalsManager.Domain.Models.FinancialGoal", b =>
                 {
                     b.Navigation("FinancialGoalTransactions");
+                });
+
+            modelBuilder.Entity("FinancialGoalsManager.Domain.Models.User", b =>
+                {
+                    b.Navigation("FinancialGoals");
                 });
 #pragma warning restore 612, 618
         }

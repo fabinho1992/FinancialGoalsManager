@@ -14,16 +14,26 @@ builder.Services.AddDbContextFinancialGoals(builder.Configuration);
 builder.Services.AddMassTransit(c =>
 {
     c.AddConsumer<TransactionCreatedConsumer>();
+    c.AddConsumer<UserCreatedConsumer>();
 
     c.UsingRabbitMq((context, config) =>
     {
         // Configura todos os endpoints automaticamente
         config.ConfigureEndpoints(context);
 
+        var exchangeName = context.GetRequiredService<IConfiguration>()["ConnectionStrings:RabbitMQ:ExchangeName"];
+
         // Configura um endpoint específico para o consumidor
         config.ReceiveEndpoint("Transaction_Created", e =>
         {
             e.ConfigureConsumer<TransactionCreatedConsumer>(context); // Configure o consumidor
+            e.Bind(exchangeName, x => x.RoutingKey = "Transaction_Created");
+        });
+
+        config.ReceiveEndpoint("User_Created", e =>
+        {
+            e.ConfigureConsumer<UserCreatedConsumer>(context);
+            e.Bind(exchangeName, x => x.RoutingKey = "User_Created");
         });
     });
 });

@@ -9,9 +9,10 @@ namespace FinancialGoalsManager.Domain.Models
 {
     public class FinancialGoal
     {
-        public FinancialGoal(string name, double goalAmount, DateTime deadline, double idealMonthlySaving)
+        public FinancialGoal(Guid userId, string name, double goalAmount, DateTime deadline, double idealMonthlySaving)
         {
             Id = Guid.NewGuid();
+            UserId = userId;
             Name = name;
             GoalAmount = goalAmount;
             Deadline = deadline;
@@ -32,6 +33,8 @@ namespace FinancialGoalsManager.Domain.Models
         public DateTime CreatedAt { get; private set; }
         public int SelectedMonths { get; private set; }
         public double SavedValue { get; private set; }
+        public Guid UserId { get; private set; }
+        public virtual User? User { get; set; }
         public bool IsDeleted { get; private set; }
         public List<FinancialGoalTransactions> FinancialGoalTransactions { get; set; } = new List<FinancialGoalTransactions>();
 
@@ -61,6 +64,11 @@ namespace FinancialGoalsManager.Domain.Models
         public void InsertIdTest(Guid id)
         {
             Id = id;
+        }
+
+        public void InsertUseriIdTest(Guid id)
+        {
+            UserId = Guid.NewGuid();
         }
     }
 

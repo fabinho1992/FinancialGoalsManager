@@ -27,8 +27,9 @@ namespace FinancialGoalsManager.Tests1.Controller.Service
                 var mockUnitOfWork = new Mock<IUnitOfWork>();
 
                 // Configura o mock para retornar um objeto FinancialGoal quando GetByIdAsync for chamado
-                var financialGoal = new FinancialGoal("teste", 100, new DateTime(2026, 01, 18), 1000);
+                
                 var financialGoalId = "123e4567-e89b-12d3-a456-426655440000";
+                var financialGoal = new FinancialGoal(Guid.Parse(financialGoalId), "teste", 100, new DateTime(2026, 01, 18), 1000);
                 financialGoal.InsertIdTest(Guid.Parse(financialGoalId)); // Insira um ID válido
 
                 mockUnitOfWork.Setup(uow => uow.FinancialGoalRepository.GetByIdAsync(It.IsAny<Guid>()))

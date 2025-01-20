@@ -10,14 +10,16 @@ namespace FinancialGoalsManager.Application.Commands.FinancialGoalCommands.Creat
 {
     public class CreateFinancialGoalCommand : IRequest<ResultViewModel<Guid>> 
     {
-        public CreateFinancialGoalCommand(string name, double goalAmount, DateTime deadline, double idealMonthlySaving)
+        public CreateFinancialGoalCommand(Guid userId, string name, double goalAmount, DateTime deadline, double idealMonthlySaving)
         {
+            UserId = userId;
             Name = name;
             GoalAmount = goalAmount;
             Deadline = deadline;
             IdealMonthlySaving = idealMonthlySaving;
         }
 
+        public Guid UserId { get; private set; }
         public string Name { get; private set; }
         public double GoalAmount { get; private set; }
         public DateTime Deadline { get; private set; }

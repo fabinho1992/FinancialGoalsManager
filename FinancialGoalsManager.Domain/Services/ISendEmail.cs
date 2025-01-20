@@ -8,6 +8,7 @@ namespace FinancialGoalsManager.Domain.Services
 {
     public interface ISendEmail
     {
+        Task SendEmailUserCreated(Guid id);
         Task SendEmailTransaction(Guid id);
     }
 }

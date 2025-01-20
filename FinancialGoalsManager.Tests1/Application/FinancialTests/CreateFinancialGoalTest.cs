@@ -22,8 +22,10 @@ namespace FinancialGoalsManager.Tests1.Application.FinancialTests
             //Arrange
             var mockRepository = new Mock<IUnitOfWork>();
 
+            var userId = Guid.NewGuid();
+
             var createCommand = new CreateFinancialGoalCommand("Teste", 100, 
-                new DateTime(2026, 01, 18), 1000);
+                new DateTime(2026, 01, 18), 1000, userId);
 
             mockRepository.Setup(x => x
             .FinancialGoalRepository.CreateAsync(It.IsAny<FinancialGoal>()));
@@ -51,8 +53,8 @@ namespace FinancialGoalsManager.Tests1.Application.FinancialTests
 
             //Arrange
             var mockRepository = new Mock<IUnitOfWork>();
-
-            var createCommand = new CreateFinancialGoalCommand("Teste", 100, new DateTime(2022, 01, 18), 1000);
+            var userId = Guid.NewGuid();
+            var createCommand = new CreateFinancialGoalCommand("Teste", 100, new DateTime(2022, 01, 18), 1000, userId);
 
             mockRepository.Setup(x => x
             .FinancialGoalRepository.CreateAsync(It.IsAny<FinancialGoal>()));

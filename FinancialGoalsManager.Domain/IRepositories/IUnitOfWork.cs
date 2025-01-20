@@ -10,6 +10,7 @@ namespace FinancialGoalsManager.Domain.IRepositories
     {
         IFinancialGoalRepository FinancialGoalRepository { get; }
         IFinancialGoalTransactionRepository FinancialGoalTransactionRepository { get; }
+        IUserRepository UserRepository { get; }
         Task Commit();
     }
 }

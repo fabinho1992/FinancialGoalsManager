@@ -8,6 +8,8 @@ namespace FinancialGoalsManager.Domain.Services.Bus
 {
     public interface IBusService
     {
-        Task Publish<T>(T message);
+        Task PublishTransaction<T>(T message);
+        Task PublishTransactionCreated<T>(T message);
+        Task PublishUserCreated<T>(T message);
     }
 }

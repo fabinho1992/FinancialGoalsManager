@@ -25,16 +25,16 @@ namespace FinancialGoalsManager.Infrastructure.Consumers
 
         public async Task Consume(ConsumeContext<FinancialGoalTransactions> context)
         {
-            var evento = context.Message;
-            var financialGoal = await _unitOfWork.FinancialGoalRepository.GetByIdAsync(evento.FinancialGoalId);
+            var @evento = context.Message;
+            var financialGoal = await _unitOfWork.FinancialGoalRepository.GetByIdAsync(@evento.FinancialGoalId);
             if (financialGoal != null && evento.TransactionType == TransactionTypeEnum.Deposit)
             {
-                financialGoal.DepositAmout(evento.Amount);
+                financialGoal.DepositAmout(@evento.Amount);
                 await _unitOfWork.FinancialGoalRepository.Update(financialGoal);
                 await _unitOfWork.Commit();
             }
 
-            _logger.LogInformation($"Depositado o valor R${evento.Amount},00");
+            _logger.LogInformation($"Depositado o valor R${@evento.Amount},00");
         }
     }
 }

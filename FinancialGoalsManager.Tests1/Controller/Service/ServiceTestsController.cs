@@ -35,9 +35,11 @@ namespace FinancialGoalsManager.Tests1.Controller.Service
             // Configurando o IMediator
             var mockMediator = new Mock<IMediator>();
 
+            var userId = Guid.NewGuid();
+
             // Aqui você deve configurar o mock para retornar um resultado esperado
-            //mockMediator.Setup(m => m.Send(It.IsAny<FinancialGoalRepository>(), It.IsAny<CancellationToken>()))
-            //  .ReturnsAsync(new FinancialGoal("Teste", 100, new DateTime(2026, 01, 10), 1000)); // Retorne um objeto que você espera
+            mockMediator.Setup(m => m.Send(It.IsAny<FinancialGoalRepository>(), It.IsAny<CancellationToken>()))
+              .ReturnsAsync(new FinancialGoal(userId, "Teste", 100, new DateTime(2026, 01, 10), 1000)); // Retorne um objeto que você espera
 
             _mediator = mockMediator.Object;
         }

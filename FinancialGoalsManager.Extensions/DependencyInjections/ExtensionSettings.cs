@@ -41,6 +41,7 @@ namespace FinancialGoalsManager.Extensions.DependencyInjections
         {
             services.AddScoped<IFinancialGoalRepository, FinancialGoalRepository>();
             services.AddScoped<IFinancialGoalTransactionRepository, FinancialGoalTransactionsRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<ISendEmail, SendEmail>();

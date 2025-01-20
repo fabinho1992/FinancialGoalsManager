@@ -1,4 +1,5 @@
-﻿using FinancialGoalsManager.Domain.Services;
+﻿using FinancialGoalsManager.Domain.IRepositories;
+using FinancialGoalsManager.Domain.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,31 @@ namespace FinancialGoalsManager.Application.ServicesEmail
 {
     public class SendEmail : ISendEmail
     {
+        IEmailService _emailService;
+        IUnitOfWork _unitOfWork;
+
+        public SendEmail(IEmailService emailService, IUnitOfWork unitOfWork)
+        {
+            _emailService = emailService;
+            _unitOfWork = unitOfWork;
+        }
+
         public Task SendEmailTransaction(Guid id)
         {
-            throw new NotImplementedException();
+            var financial = _unitOfWork.FinancialGoalTransactionRepository.GetByIdFinancialGoalAsync(id);
+            
+
+            return Task.CompletedTask;
+        }
+
+        public async Task SendEmailUserCreated(Guid id)
+        {
+            var user = await _unitOfWork.UserRepository.GetByIdAsync(id);
+
+            var message = $"Welcome {user.FullName}, registration completed successfully," +
+                $" now you can create a financial goal for your future.";
+
+            await _emailService.SendEmailService("Registered user", message, user.Email, user.FullName);
         }
     }
 }

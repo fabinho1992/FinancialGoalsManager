@@ -25,7 +25,7 @@ namespace FinancialGoalsManager.Tests1.Application.TransactionsTests
             var mockBus = new Mock<IBusService>();
 
             var financialId = Guid.Parse("123e4567-e89b-12d3-a456-426655440000");
-            var financial = new FinancialGoal("Teste", 100, new DateTime(2026,01,10), 1000);
+            var financial = new FinancialGoal(financialId, "Teste", 100, new DateTime(2026,01,10), 1000);
             financial.InsertIdTest(financialId);
             var createCommand = new CreateTransactionsCommand(100,
                 TransactionTypeEnum.Deposit, financialId);

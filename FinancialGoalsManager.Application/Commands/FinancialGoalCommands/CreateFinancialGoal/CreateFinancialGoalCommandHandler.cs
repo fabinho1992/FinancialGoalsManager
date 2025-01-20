@@ -21,7 +21,7 @@ namespace FinancialGoalsManager.Application.Commands.FinancialGoalCommands.Creat
 
         public async Task<ResultViewModel<Guid>> Handle(CreateFinancialGoalCommand request, CancellationToken cancellationToken)
         {
-            var financialGoal = new FinancialGoal(request.Name, request.GoalAmount,
+            var financialGoal = new FinancialGoal(request.UserId, request.Name, request.GoalAmount,
                 request.Deadline, request.IdealMonthlySaving);
 
             await _unitOfWork.FinancialGoalRepository.CreateAsync(financialGoal);
