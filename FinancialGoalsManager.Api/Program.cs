@@ -20,21 +20,22 @@ builder.Services.AddMassTransit(c =>
     c.UsingRabbitMq((context, config) =>
     {
         // Configura todos os endpoints automaticamente
-        config.ConfigureEndpoints(context);
+        //config.ConfigureEndpoints(context);
 
         var exchangeName = context.GetRequiredService<IConfiguration>()["ConnectionStrings:RabbitMQ:ExchangeName"];
 
-        // Configura um endpoint específico para o consumidor
-        config.ReceiveEndpoint("Transaction_Created", e =>
+        //Configura um endpoint específico para o consumidor
+        config.ReceiveEndpoint("Transaction-Created", e =>
         {
+            
             e.ConfigureConsumer<TransactionCreatedConsumer>(context); // Configure o consumidor
-            e.Bind(exchangeName, x => x.RoutingKey = "Transaction_Created");
+            e.Bind(exchangeName, x => x.RoutingKey = "Transaction-Created");
         });
 
-        config.ReceiveEndpoint("User_Created", e =>
+        config.ReceiveEndpoint("User-Created", e =>
         {
             e.ConfigureConsumer<UserCreatedConsumer>(context);
-            e.Bind(exchangeName, x => x.RoutingKey = "Transaction_Created");
+            e.Bind(exchangeName, x => x.RoutingKey = "User-Created");
         });
     });
 });

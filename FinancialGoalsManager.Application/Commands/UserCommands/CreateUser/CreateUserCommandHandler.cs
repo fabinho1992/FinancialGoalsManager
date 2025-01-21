@@ -38,10 +38,7 @@ namespace FinancialGoalsManager.Application.Commands.UserCommands.CreateUser
 
             _logger.LogInformation($"{user.Id}");
 
-            var message = $"Welcome Fabio, registration completed successfully," +
-               $" now you can create a financial goal for your future.";
-            _logger.LogInformation(message);
-            await _emailService.SendEmailService("Registered user", message.ToString(), "f.santosdev1992@gmail.com", "Fabio");
+            
             await _bus.PublishTransaction(user);
             
 

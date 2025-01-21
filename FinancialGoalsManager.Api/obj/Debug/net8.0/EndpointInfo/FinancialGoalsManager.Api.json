@@ -196,7 +196,7 @@
         }
       }
     },
-    "/api/FinancialGoalsTransactions": {
+    "/api/FinancialGoalsTransactions/Deposit": {
       "post": {
         "tags": [
           "FinancialGoalsTransactions"
@@ -230,7 +230,45 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/FinancialGoalsTransactions/Withdraw": {
+      "post": {
+        "tags": [
+          "FinancialGoalsTransactions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WithdrawTransCommand"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WithdrawTransCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WithdrawTransCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WithdrawTransCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/FinancialGoalsTransactions": {
       "get": {
         "tags": [
           "FinancialGoalsTransactions"
@@ -514,6 +552,23 @@
           "idealMonthlySaving": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WithdrawTransCommand": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "transactionType": {
+            "$ref": "#/components/schemas/TransactionTypeEnum"
+          },
+          "financialGoalId": {
+            "type": "string",
+            "format": "uuid"
           }
         },
         "additionalProperties": false

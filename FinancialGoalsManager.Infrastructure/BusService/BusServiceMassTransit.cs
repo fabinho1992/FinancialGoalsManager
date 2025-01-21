@@ -24,8 +24,8 @@ namespace FinancialGoalsManager.Infrastructure.BusService
 
         public async Task PublishTransaction<T>(T message)
         {
-            var endpoint = await _bus.GetSendEndpoint(new Uri($"rabbitmq://localhost/{_exchangeName}"));
-            await endpoint.Send(message);
+            await _bus.Publish(message);  
+            
         }
 
         public Task PublishTransactionCreated<T>(T message)

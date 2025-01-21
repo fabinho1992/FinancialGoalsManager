@@ -102,22 +102,6 @@
   },
   {
     "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsTransactionsController",
-    "Method": "Create",
-    "RelativePath": "api/FinancialGoalsTransactions",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "command",
-        "Type": "FinancialGoalsManager.Application.Commands.FinancialGoalsTransactionsCommands.CreateFinancialGoalsTransactions.CreateTransactionsCommand",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsTransactionsController",
     "Method": "GetAll",
     "RelativePath": "api/FinancialGoalsTransactions",
     "HttpMethod": "GET",
@@ -155,6 +139,22 @@
   },
   {
     "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsTransactionsController",
+    "Method": "CreateDeposit",
+    "RelativePath": "api/FinancialGoalsTransactions/Deposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "FinancialGoalsManager.Application.Commands.FinancialGoalsTransactionsCommands.CreateFinancialGoalsTransactions.CreateTransactionsCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsTransactionsController",
     "Method": "GetByIdFinancialGoal",
     "RelativePath": "api/FinancialGoalsTransactions/financialGoalId/{id}",
     "HttpMethod": "GET",
@@ -164,6 +164,22 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinancialGoalsManager.Api.Controllers.FinancialGoalsTransactionsController",
+    "Method": "CreateWithDraw",
+    "RelativePath": "api/FinancialGoalsTransactions/Withdraw",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "FinancialGoalsManager.Application.Commands.TransactionsCommands.WithdrawTransaction.WithdrawTransCommand",
         "IsRequired": true
       }
     ],

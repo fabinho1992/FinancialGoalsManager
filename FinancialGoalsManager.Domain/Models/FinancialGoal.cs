@@ -49,6 +49,11 @@ namespace FinancialGoalsManager.Domain.Models
             SavedValue += value;
         }
 
+        public void Withdraw(double value)
+        {
+            SavedValue -= value;
+        }
+
         public void CalculateSelectedMonths()
         {
             // Obtém a data atual sem a hora

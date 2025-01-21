@@ -1,4 +1,5 @@
 ﻿using FinancialGoalsManager.Application.Commands.FinancialGoalsTransactionsCommands.CreateFinancialGoalsTransactions;
+using FinancialGoalsManager.Application.Commands.TransactionsCommands.WithdrawTransaction;
 using FinancialGoalsManager.Application.Queries.TransactionsQueries.TransactionById;
 using FinancialGoalsManager.Application.Queries.TransactionsQueries.TransactionByIdFinancial;
 using FinancialGoalsManager.Application.Queries.TransactionsQueries.TransactionsList;
@@ -21,11 +22,42 @@ namespace FinancialGoalsManager.Api.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create(CreateTransactionsCommand command)
+        [HttpPost("Deposit")]
+        public async Task<IActionResult> CreateDeposit(CreateTransactionsCommand command)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var result = await _mediator.Send(command);
-            return Ok(result);
+            if (result.IsSuccess)
+            {
+                return CreatedAtAction(nameof(GetById), new { id = result.Data }, command);
+            }
+            else
+            {
+                return BadRequest(result.Message);
+            }
+        }
+
+        [HttpPost("Withdraw")]
+        public async Task<IActionResult> CreateWithDraw(WithdrawTransCommand command)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var result = await _mediator.Send(command);
+            if (result.IsSuccess)
+            {
+                return CreatedAtAction(nameof(GetById), new { id = result.Data }, command);
+            }
+            else
+            {
+                return BadRequest(result.Message);
+            }
         }
 
         [HttpGet]

@@ -39,11 +39,9 @@ namespace FinancialGoalsManager.Infrastructure.Consumers
             {
                 try
                 {
-
                     // Agendar o envio do e-mail para 1 minuto depois
                     BackgroundJob.Schedule(() => _sendEmail.SendEmailUserCreated(@evento.Email), TimeSpan.FromMinutes(1));
                     _logger.LogInformation($"E-mail agendado para ser enviado para {@evento.Email} em 1 minuto.");
-                    _logger.LogInformation($"E-mail enviado para {@evento.FullName}");
                 }
                 catch (Exception ex)
                 {
