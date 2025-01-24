@@ -9,6 +9,11 @@ namespace FinancialGoalsManager.Application.Dtos.ViewModels.FinancialGoalRespons
 {
     public class FinancialGoalResponse
     {
+        public FinancialGoalResponse()
+        {
+            
+        }
+
         public FinancialGoalResponse(Guid id, string name, double goalAmount, string deadline,
             double idealMonthlySaving, FinancialGoalsStatusEnum status, string createdAt, double salvedValue, int selectedMonths)
         {

@@ -34,7 +34,7 @@ namespace FinancialGoalsManager.Infrastructure.Consumers
         public async Task Consume(ConsumeContext<User> context)
         {
             var @evento = context.Message;
-            //var user = await _unitOfWork.UserRepository.GetByIdAsync(@evento.Id);
+
             if (@evento is not null)
             {
                 try

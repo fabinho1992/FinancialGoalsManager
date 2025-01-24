@@ -1,4 +1,5 @@
 ﻿using FinancialGoalsManager.Application.Commands.UserCommands.CreateUser;
+using FinancialGoalsManager.Application.Queries.UserQueries.UserEmail;
 using FinancialGoalsManager.Application.Queries.UserQueries.UsersList;
 using FinancialGoalsManager.Domain.Models;
 using MediatR;
@@ -30,6 +31,20 @@ namespace FinancialGoalsManager.Api.Controllers
         public async Task<IActionResult> GetAll([FromQuery] PaginationParameters pagination)
         {
             var query = new UsersListQuery(pagination.PageNumber, pagination.PageSize);
+            var result = await _mediator.Send(query);
+
+            if (!result.IsSuccess)
+            {
+                return NotFound(result.Message);
+            }
+
+            return Ok(result);
+        }
+
+        [HttpGet("{email}")]
+        public async Task<IActionResult> GetByEmail(string email)
+        {
+            var query = new UserEmailQuery(email);
             var result = await _mediator.Send(query);
 
             if (!result.IsSuccess)

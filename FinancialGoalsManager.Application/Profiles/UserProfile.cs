@@ -13,7 +13,7 @@ namespace FinancialGoalsManager.Application.Profiles
     {
         public UserProfile()
         {
-            CreateMap<User, UserDetailsResponse>().ForMember(x => x.financialGoalResponses, op =>
+            CreateMap<User, UserDetailsResponse>().ForMember(x => x.FinancialGoalResponse, op =>
                 op.MapFrom(x => x.FinancialGoals)).ReverseMap();
         }
     }

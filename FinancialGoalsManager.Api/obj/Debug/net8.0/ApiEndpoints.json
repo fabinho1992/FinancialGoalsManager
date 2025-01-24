@@ -237,5 +237,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinancialGoalsManager.Api.Controllers.UsersController",
+    "Method": "GetByEmail",
+    "RelativePath": "api/Users/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -19,6 +19,8 @@ namespace FinancialGoalsManager.Application.Profiles
                 op.MapFrom(x => x.FinancialGoalTransactions)).ReverseMap();
 
             CreateMap<UpdateFinancialGoalCommand, FinancialGoal>().ReverseMap();
+
+            CreateMap<FinancialGoalResponse, FinancialGoal>().ReverseMap();
         }
     }
 }

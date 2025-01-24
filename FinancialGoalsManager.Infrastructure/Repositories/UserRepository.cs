@@ -39,7 +39,7 @@ namespace FinancialGoalsManager.Infrastructure.Repositories
 
         public async Task<User> GetByEmail(string email)
         {
-            var user = await _context.Users
+            var user = await _context.Users.Include(u => u.FinancialGoals)
                 .SingleOrDefaultAsync(u => u.Email == email);
 
             return user;
