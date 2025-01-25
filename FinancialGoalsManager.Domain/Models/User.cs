@@ -21,5 +21,12 @@ namespace FinancialGoalsManager.Domain.Models
         public string Cpf { get; private set; }
         public string Email { get; private set; }
         public List<FinancialGoal> FinancialGoals { get; private set; } = new List<FinancialGoal>();
+
+
+        public void InsertIdTest(Guid id)
+        {
+            Id = id;
+        }
     }
+
 }

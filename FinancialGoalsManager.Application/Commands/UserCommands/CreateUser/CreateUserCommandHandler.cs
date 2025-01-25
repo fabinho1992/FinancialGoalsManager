@@ -19,14 +19,12 @@ namespace FinancialGoalsManager.Application.Commands.UserCommands.CreateUser
         private readonly IUnitOfWork _unitOfWork;
         private readonly IBusService _bus;
         private readonly ILogger<CreateUserCommand> _logger;
-        private readonly IEmailService _emailService;
 
-        public CreateUserCommandHandler(IUnitOfWork unitOfWork, IBusService bus, ILogger<CreateUserCommand> logger, IEmailService emailService)
+        public CreateUserCommandHandler(IUnitOfWork unitOfWork, IBusService bus, ILogger<CreateUserCommand> logger)
         {
             _unitOfWork = unitOfWork;
             _bus = bus;
             _logger = logger;
-            _emailService = emailService;
         }
 
         public async Task<ResultViewModel<Guid>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
